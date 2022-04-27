@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>As melhores Praias do Brasil</title>
+    <link rel="icon" href="img/fundo.jpg">
+    <link rel="stylesheet" href="CssCorposDocentes/CorposDocentes.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="Principal"><!-- Abrindo Principal -->
+        <div class="Transparencia"></div><!-- Abrindo Tranparencia -->
+        <div class="Centro"><!-- Abrindo Centro -->
+            <header> <!-- Abrindo header -->
+                <div class="Icones-Sociais"><!-- Abrindo Icones-Sociais -->
+                    <a href="https:/facebook.com" target="blank"><i class="fa fa-facebook-square"></i></a>
+                    <a href="https:/instagram.com" target="blank"><i class="fa fa-instagram"></i></a>
+                </div><!-- Fechando Icones-Sociais -->
+                <div class="clear"></div><!-- Abrindo e fechando clear -->
+                <div class="Logo"><!-- Abrindo Logo -->
+                    Praias 
+                </div><!-- Fechando Logo -->
+                <nav class="Desktop"> <!-- Abrindo Desktop -->
+                    <ul>
+                        <li><a href="Index.html"target="blank">Inicio</a></li>
+                       
+                        <li><a href="CorposDocentes.html"target="blank">Corpo Docentes</a></li>
+                        <li><a href="PorQueNos.html"target="blank">Por que nós</a></li>
+                    </ul><!-- Fechando ul -->
+                </nav><!-- Fechando nav -->
+                <nav class="Mobile"><!-- Abrindo Mobile -->
+                    <i class="fa fa-bars"></i><!-- Abrindo fa fa-bars -->
+                    <ul>
+                        <li><a href="Index.html"target="blank">Inicio</a></li>
+                        <li><a href="">Lugares</a></li>
+                        <li><a href="">Sobre</a></li>
+                        <li><a href="Depoimentos.html"target="blank">Depoimentos</a></li>
+                        <li><a href="">Contatos</a></li>
+                        <li><a href="CorposDocentes.html"target="blank">Corpo Docentes</a></li>
+                        <li><a href="PorQueNos.html"target="blank">Por que nós</a></li>
+
+                    </ul><!-- Fechando ul -->
+                </nav><!-- Fechando nav Desktop -->
+                <div class="clear"></div><!-- Abrindo clear -->
+            </header><!-- Fechando Icones-Sociais -->
+            <section class="Cursos"><!-- Abrindo Cursos -->
+                <div class="Chamada-Cursos"><!-- Chamada-Cursos -->
+                    <!-- Abrindo Chamada-Cursos -->
+                    <div class="Centro"><!-- Abrindo Centro -->
+                    </div>
+                </div>
+            </section>
+            <div class="clear"></div><!-- Abrindo clear -->
+            </header><!-- Fechando Icones-Sociais -->
+            <div class="Conteudo-Cabecalho"> <!-- Abrindo Conteudo-Cabecalho -->
+                <h2> Corpos Docentes </h2>
+                
+            
+                <p> Além de termos a Aline que trabalha na área de alugar barcos em todas as praias de São Paulo, também temos a Anabelle que fica responsável com a área do laser para você e família, em qualquer das praias escolhisdas. Também temos o Bruno, que fica com a parte de manutenção das piscinas e bens materiáis da nossa pousada.</p>
+                
+            </div><!-- Fechando conteudo cabecalho -->
+        </div><!-- Fechando Centro -->
+    </section><!-- Fechando Principal -->
+    
+    <footer>Todos os direitos resevados</footer><!-- Abrindo e fechando footer -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script>
+
+        $(function () {
+
+            $('nav.Mobile i').click(function () {
+                var clicando = $(this).parent().find('ul');
+                if (clicando.is(':visible') == false) {
+                    clicando.fadeIn();
+                }
+                else {
+                    clicando.fadeOut();
+                }
+            })
+
+
+
+        })
+
+    </script>
+</body>
+
+</html>

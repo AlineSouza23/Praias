@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>As melhores Praias do Brasil</title>
+    <link rel="icon" href="img/fundo.jpg">
+    <link rel="stylesheet" href="CssPorQueNos/CssPorQueNos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="Principal"><!-- Abrindo Principal -->
+        <div class="Transparencia"></div><!-- Abrindo Tranparencia -->
+        <div class="Centro"><!-- Abrindo Centro -->
+            <header> <!-- Abrindo header -->
+                <div class="Icones-Sociais"><!-- Abrindo Icones-Sociais -->
+                    <a href="https:/facebook.com" target="blank"><i class="fa fa-facebook-square"></i></a>
+                    <a href="https:/instagram.com" target="blank"><i class="fa fa-instagram"></i></a>
+                </div><!-- Fechando Icones-Sociais -->
+                <div class="clear"></div><!-- Abrindo e fechando clear -->
+                <div class="Logo"><!-- Abrindo Logo -->
+                    Praias 
+                </div><!-- Fechando Logo -->
+                <nav class="Desktop"> <!-- Abrindo Desktop -->
+                    <ul>
+                        <li><a href="Index.html"target="blank">Inicio</a></li>
+                    
+                        <li><a href="CorposDocentes.html"target="blank">Corpo Docentes</a></li>
+                        <li><a href="PorQueNos.html"target="blank">Por que nós</a></li>
+                    </ul><!-- Fechando ul -->
+                </nav><!-- Fechando nav -->
+                <nav class="Mobile"><!-- Abrindo Mobile -->
+                    <i class="fa fa-bars"></i><!-- Abrindo fa fa-bars -->
+                    <ul>
+                        <li><a href="Index.html"target="blank">Inicio</a></li>
+                        <li><a href="">Lugares</a></li>
+                        <li><a href="">Sobre</a></li>
+                        <li><a href="Depoimentos.html"target="blank">Depoimentos</a></li>
+                        <li><a href="">Contatos</a></li>
+                        <li><a href="CorposDocentes.html"target="blank">Corpo Docentes</a></li>
+                        <li><a href="PorQueNos.html"target="blank">Por que nós</a></li>
+
+                    </ul><!-- Fechando ul -->
+                </nav><!-- Fechando nav Desktop -->
+                <div class="clear"></div><!-- Abrindo clear -->
+            </header><!-- Fechando Icones-Sociais -->
+            <section class="Cursos"><!-- Abrindo Cursos -->
+                <div class="Chamada-Cursos"><!-- Chamada-Cursos -->
+                    <!-- Abrindo Chamada-Cursos -->
+                    <div class="Centro"><!-- Abrindo Centro -->
+                    </div>
+                </div>
+            </section>
+            <div class="clear"></div><!-- Abrindo clear -->
+            </header><!-- Fechando Icones-Sociais -->
+            <div class="Conteudo-Cabecalho"> <!-- Abrindo Conteudo-Cabecalho -->
+                <h2> Por que nós?</h2>
+                <p>Nossa praias são consideradas uma das melhores praias do Brasil e, certamente, uma das praias mais bonitas como a praia:</p>
+                <p> * Praia do Ilha de Boipeba</p>
+                <p> * Jericoacoara</p>
+                <p> * Praia do Espelho</p>
+                <p> * Patacho</p>
+                <p> * São Miguel dos Milagres</p>
+                <p> * Praia de tamboré</p>
+                <p> * Praia de Cotia</p>
+                <p> * Praia do canadá</p>
+                <p> * Praia do Espelho</p>
+                <p> * Praia do Leão</p>
+                <p> * Baía do Sancho</p>
+            
+                <p>Com aluguel de barcos e pousadas o seu passeio será imperdível em qualquer uma de nosssa spraias em São Paulo. O centro de comunicação para reservá-las está localizada em meio a um enorme paredão de pedras e seu acesso se dá pelo mar ou por uma escadaria criada no meio de uma fenda na pedra. O acesso realmente não é dos mais simples, mas o lugar é delicioso e compensa a descida!</p>
+                
+            </div><!-- Fechando conteudo cabecalho -->
+        </div><!-- Fechando Centro -->
+    </section><!-- Fechando Principal -->
+    
+    <footer>Todos os direitos resevados</footer><!-- Abrindo e fechando footer -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script>
+
+        $(function () {
+
+            $('nav.Mobile i').click(function () {
+                var clicando = $(this).parent().find('ul');
+                if (clicando.is(':visible') == false) {
+                    clicando.fadeIn();
+                }
+                else {
+                    clicando.fadeOut();
+                }
+            })
+
+
+
+        })
+
+    </script>
+</body>
+
+</html>
